@@ -1,0 +1,26 @@
+1. Security risks:
+-Data breaches:
+unautherised access to sensitive usr infomation.
+-Malware and hacking:
+vulnerabiities in code allowing cyberattacks.
+-Unencrypted Data:
+lack of SSL encryption exposing user data.
+
+2. Performance Risks:
+-Slow Load Times:
+poor optimisation leading to reduced user engagement.
+Broken links and errors:
+incorrect URLs, outdated pages, or missing resources.
+
+3. Compliance Risks:
+-GDPR and Privacy Violations:
+Non-complience with data protection laws.
+-Accessibility Issues:
+failure to meet WCAG standards for disabled users.
+
+4. Operational Risks:
+-Server Downtime:
+hosting failure causing unavailability.
+-Backup Failures:
+lack of data recovery plans
+

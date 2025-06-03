@@ -1,0 +1,141 @@
+-<button onclick="redirectUser()">Click me to go somewhere</button>
+
+<script>
+    function redirectUser() {
+        let userChoice = confirm("Do you want to go to the new page?");
+        if (userChoice) {
+            window.location.href = "https://example.com";
+} else {
+            alert("You chose to stay on this page.");
+}
+}
+</script>
+
+
+-<input type="text" id="userInput" placeholder="Type yes to redirect">
+<button onclick="checkInput()">Submit</button>
+
+<script>
+    function checkInput() {
+        let input = document.getElementById("userInput").value;
+        if (input.toLowerCase() === "yes") {
+            window.location.href = "https://example.com";
+} else {
+            alert("You must type 'yes' to proceed.");
+}
+}
+</script>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+}
+    </style>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+            padding-top: 80px; /* Adjust the value based on the height of the banner */
+}
+
+.content {
+            text-align: center;
+}
+    </style>
+</head>
+<body>
+
+    <div class="banner" style="background-color: darkblue; color: white; padding: 20px; text-align: center;">
+        This is the top banner
+    </div>
+
+    <div class="content">
+        <h1>Hello, World!</h1>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient from orange to yellow */
+}
+    </style>
+</head>
+<body>
+    <h1>Colorful Background</h1>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light gray */
+            margin: 0;
+            padding-top: 80px; /* Adjust to match the banner height */
+            font-family: Arial, sans-serif;
+}
+
+.banner {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+}
+
+.content {
+            padding: 20px;
+}
+    </style>
+</head>
+<body>
+
+    <div class="banner">
+        This is the top banner
+    </div>
+
+    <div class="content">
+        <h1>Hello, World!</h1>
+        <p>Your content now properly adjusts below the banner.</p>
+    </div>
+
+</body>
+</html>
