@@ -154,3 +154,22 @@ function toggleTheme() {
 }
 }
 }
+
+let audio = document.getElementById("audioPlayer");
+
+function playAudio() {
+    audio.play();
+}
+
+function pauseAudio() {
+    audio.pause();
+}
+
+function stopAudio() {
+    audio.pause();
+    audio.currentTime = 0; // Resets playback position
+}
+
+function muteAudio() {
+    audio.muted =!audio.muted; // Toggle mute
+}
