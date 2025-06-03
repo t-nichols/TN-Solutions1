@@ -53,7 +53,7 @@
     <button onclick="stopAudio()">Stop</button>
     <button onclick="muteAudio()">Mute</button>
 
-	
+	<script src="script.js" defer></script>
 </head>
 <body>
     <div class="banner">
@@ -149,6 +149,16 @@
   <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h1 class="w3-text-teal"></h1>
+	    <audio id="audioPlayer">
+        <source src="Project log.m4a" type="audio/mp4">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Custom Controls -->
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
+    <button onclick="stopAudio()">Stop</button>
+    <button onclick="muteAudio()">Mute</button>
       <p class="w3-center"><img src="Swot.PNG" id="dislikebuttonimage"></p>
       <h6></h6>
       <h6></h6>
